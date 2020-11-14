@@ -1,0 +1,13 @@
+{
+    "manifest_version": 2,
+    "name": "Local storage",
+    "version": "1.0",
+    "description":"Save content for a particular site and access it",
+    "icons":{"128":"icon.png"},
+
+    "background": {
+        "persistent": true,
+        "scripts":["js/background.js"]
+      },
+      "permissions":["contextMenus","activeTab"]
+}  
